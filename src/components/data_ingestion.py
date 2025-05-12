@@ -49,4 +49,4 @@ if __name__ == "__main__":
     train_data,test_data = obj.initiate_data_ingestion()
 
     data_transformation = DataTransformation()
-    preprocessor = data_transformation.initiate_data_transformation(train_data, test_data)    
+    preprocessor = data_transformation.initiate_data_transformation(train_data, test_data)
